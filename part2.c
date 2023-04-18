@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
         a1 = 0;  
 
-        a1[0] = 1;  
+        //a1[0] = 1;  
 
         return 0;  
 
