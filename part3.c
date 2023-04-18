@@ -36,7 +36,7 @@ void sort(item *a, int n) {
       int s;
 
 
-      for (i=0; i < n && s != 0; i++) {
+      for (; i < n && s == 0; i++) {
 
               s = 0;
 
