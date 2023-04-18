@@ -31,16 +31,18 @@ item array[] = {
 
 void sort(item *a, int n) { 
 
-      int i = 0, j = 0;
+      //int i = 0, j = 0;
 
-      int s;
+      //int s;
 
 
-      for (; i < n && s == 0; i++) {
+      // for (; i < n && s == 0; i++) 
+      for(int i = 0; i < n; i++){
 
-              s = 0;
+              //s = 0;
 
-              for (j = 0; j < n; j++) {
+            //   for (j = 0; j < n; j++) 
+              for (int j = 0; j < n - 1; j++) {
 
                        if (a[j].key > a[j+1].key) {
 
@@ -50,7 +52,7 @@ void sort(item *a, int n) {
 
                                a[j+1] = t;
 
-                               s++;
+                            //    s++;
 
                        }
 
