@@ -14,9 +14,9 @@ int main(int argc, char *argv[])
 
         a1 = a;  
 
-        a1 = 0;  
+        //a1 = 0;  
 
-        //a1[0] = 1;  
+        a1[0] = 1;  
         printf("successful run\n");
 
         return 0;  
