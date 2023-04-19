@@ -9,6 +9,14 @@ typedef struct {
 
 } item;
 
+// print array
+void printarray(item *a, int n) {
+    printf("===========================\n");
+    for (int i = 0; i < n; i++) {
+        printf("%s \t %i\n", a[i].data, a[i].key);
+     }
+}
+
  
 
 item array[] = {
@@ -37,7 +45,7 @@ void sort(item *a, int n) {
 
 
       // for (; i < n && s == 0; i++) 
-      for(int i = 0; i < n; i++){
+      for(int i = 0; n > 1; i++){
 
               //s = 0;
 
@@ -69,7 +77,7 @@ void sort(item *a, int n) {
 int main() {
 
     sort(array,5); 
-
+    printarray(array, 5);
     return 0;
 
 }
